@@ -1,0 +1,15 @@
+google-generativeai
+ipykernel
+google-cloud-aiplatform>=1.38
+python-dotenv
+pillow
+streamlit
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+pymysql
+pdf2image
+youtube_transcript_api
+pathlib

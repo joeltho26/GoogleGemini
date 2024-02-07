@@ -1,0 +1,8 @@
+poppler_datadir=/Users/joeljoseph26/Documents/Education/Machine_and_Deep_Learning/LLMs/GoogleGemini/GoogleGemini/env/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.11
+
+Cflags: -DPOPPLER_DATADIR=/Users/joeljoseph26/Documents/Education/Machine_and_Deep_Learning/LLMs/GoogleGemini/GoogleGemini/env/share/poppler
+

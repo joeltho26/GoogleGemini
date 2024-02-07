@@ -1,0 +1,11 @@
+prefix=/Users/joeljoseph26/Documents/Education/Machine_and_Deep_Learning/LLMs/GoogleGemini/GoogleGemini/env
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: GThread
+Description: Thread support for GLib
+Version: 2.69.1
+Requires: glib-2.0
+Libs: -L${libdir} -lgthread-2.0
+Libs.private: -lintl
+Cflags: -I${includedir}

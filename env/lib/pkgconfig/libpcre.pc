@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/joeljoseph26/Documents/Education/Machine_and_Deep_Learning/LLMs/GoogleGemini/GoogleGemini/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcre
+Description: PCRE - Perl compatible regular expressions C library with 8 bit character support
+Version: 8.45
+Libs: -L${libdir} -lpcre
+Libs.private:  
+Cflags: -I${includedir} 

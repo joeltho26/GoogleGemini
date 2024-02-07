@@ -1,0 +1,10 @@
+prefix=/Users/joeljoseph26/Documents/Education/Machine_and_Deep_Learning/LLMs/GoogleGemini/GoogleGemini/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjpeg
+Description: Reads and writes JPEG files
+Version: 9.5.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
